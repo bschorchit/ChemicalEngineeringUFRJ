@@ -1,2 +1,2 @@
 # ChemicalEngineeringUFRJ
-Python scripts to solve some exercises of my bachelor studies. 
+Python scripts I wrote to solve some exercises during my bachelor studies. 
