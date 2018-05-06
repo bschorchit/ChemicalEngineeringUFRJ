@@ -32,6 +32,11 @@ def bissecao(F):
 
             if P(xr,xii)<0:
                 xi = xr
+
+            if P(xi,xr)==0:
+                xi = xr
+                E = 0
+                break
     
         else:
             print('Intervalo ruim, Fi = ' + str(F(xi)) + ' e Fii = ' + str(F(xii)))
@@ -67,7 +72,12 @@ def regulafalsa(F):
 
             if P(xr,xii)<0:
                 xi = xr
-    
+
+            if P(xi,xr)==0:
+                xi = xr
+                E = 0
+                break
+              
         else:
             print('Intervalo ruim, Fi = ' + str(F(xi)) + ' e Fii = ' + str(F(xii)))
             break
