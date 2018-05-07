@@ -2,7 +2,7 @@ import metodos
 from math import sqrt
 
 def F(x):
-    F = sqrt(18) - x
+    F = 18 - x**2
     return F
 
 metodos.bissecao(F)
