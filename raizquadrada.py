@@ -1,5 +1,4 @@
 import metodos
-from math import sqrt
 
 def F(x):
     F = 18 - x**2
