@@ -124,7 +124,7 @@ def secante(F):
         xiii = xii - F(xii)*((xii - xi)/(F(xii) - F(xi)))
         xi = xii
         xii = xiii
-        print(F(xii))
+        print(xiii)
     E = abs(((xiii - xiiiv)/xiii)*100)
     
     if abs(F(xiii)) < 0.0000001:
